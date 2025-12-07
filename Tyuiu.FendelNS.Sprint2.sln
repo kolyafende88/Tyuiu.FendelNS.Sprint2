@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FendelNS.Sprint2.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.FendelNS.Sprint2.Task1.V21.Test", "Tyuiu.FendelNS.Sprint2.Task1.V21.Test\Tyuiu.FendelNS.Sprint2.Task1.V21.Test.csproj", "{4E3080B6-E2F5-46C2-A0AD-7A3856E732C6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{ED2CB775-64B1-451D-B400-6CA68E7FF74A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
