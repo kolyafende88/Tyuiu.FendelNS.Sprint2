@@ -2,7 +2,7 @@
 
 namespace Tyuiu.FendelNS.Sprint2.Task4.V22.Lib
 {
-    public class DataService : ISprint2Task4V20
+    public class DataService : ISprint2Task4V22
     {
         public double Calculate(double x, double y)
         {
