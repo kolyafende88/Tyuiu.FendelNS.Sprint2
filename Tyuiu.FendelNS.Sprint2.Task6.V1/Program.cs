@@ -1,4 +1,4 @@
-﻿using Tyuiu.FendelNS.Sprint2.Task6.V1.LIb;
+﻿using Tyuiu.FendelNS.Sprint2.Task6.V1.Lib;
 namespace Tyuiu.FendelNS.Sprint2.Task6.V1
 {
     internal class Program
@@ -11,7 +11,7 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
             Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #18                                                             *");
+            Console.WriteLine("* Вариант #18                                                              *");
             Console.WriteLine("* Выполнил: Фендель Николай Сергеевич | СМАРТБ-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");

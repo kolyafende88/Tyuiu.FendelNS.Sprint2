@@ -1,4 +1,4 @@
-﻿using Tyuiu.FendelNS.Sprint2.Task6.V1.LIb;
+﻿using Tyuiu.FendelNS.Sprint2.Task6.V1.Lib;
 namespace Tyuiu.FendelNS.Sprint2.Task6.V1.Test
 {
     [TestClass]
