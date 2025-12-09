@@ -13,7 +13,7 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1
             Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
-            Console.WriteLine("* Выполнил: Фендель Николай Сергеевич| СМАРТБ-24-1                        *");
+            Console.WriteLine("* Выполнил: Фендель Николай Сергеевич | СМАРТБ-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая использует оператор switch                  *");
