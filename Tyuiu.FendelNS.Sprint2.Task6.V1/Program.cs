@@ -6,39 +6,37 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнил: Фендель Н. С. | СМАРТБ-24-1";
+
+            Console.Title = "Спринт #2 | Выполнил Фендель Н. С. | СМАРТБ-24-1";
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #18                                                              *");
-            Console.WriteLine("* Выполнил: Фендель Николай Сергеевич | СМАРТБ-24-1                        *");
+            Console.WriteLine("* Спринт #2                                                               *");
+            Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
+            Console.WriteLine("* Выполнил: Фендель Николай Сергеевич   | ИБКСб-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет, и печатает результат на экране                               *");
+            Console.WriteLine("* Написать программу, которая использует оператор switch                  *");
+            Console.WriteLine("* пользователь вводит номер месяца и получает количество дней в этом      *");
+            Console.WriteLine("* месяце                                                                  *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите номер месяца: ");
-            int numMonth = Convert.ToInt32(Console.ReadLine());
-            int res;
-            if ((numMonth > 12) || (numMonth < 1))
-            {
-                res = 0;
-            }
-            else
-            {
-                res = ds.FindMonthDaysCount(numMonth);
-            }
+            Console.WriteLine(" Введите номер месяца");
+            int x = Convert.ToInt32(Console.ReadLine());
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine($"Количество дней в месяце: {res}");
+            Console.WriteLine(ds.FindMonthDaysCount(x));
             Console.ReadKey();
         }
     }

@@ -5,7 +5,7 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void FindMonthDaysCount()
+        public void TestMethod1()
         {
             DataService ds = new DataService();
             Assert.AreEqual(31, ds.FindMonthDaysCount(1));
@@ -20,15 +20,8 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1.Test
             Assert.AreEqual(31, ds.FindMonthDaysCount(10));
             Assert.AreEqual(30, ds.FindMonthDaysCount(11));
             Assert.AreEqual(31, ds.FindMonthDaysCount(12));
-
-            Assert.ThrowsException<ArgumentException>(() =>
-            {
-                ds.FindMonthDaysCount(-1);
-            });
-            Assert.ThrowsException<ArgumentException>(() =>
-            {
-                ds.FindMonthDaysCount(13);
-            });
+            Assert.ThrowsException<Exception>(() => ds.FindMonthDaysCount(-1));
+            Assert.ThrowsException<Exception>(() => ds.FindMonthDaysCount(13));
         }
     }
 }

@@ -20,8 +20,7 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1.Lib
                 case 10: return 31;
                 case 11: return 30;
                 case 12: return 31;
-
-                default: throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {value} неверное");
+                default: throw new Exception($"Значение месяца должно быть от 1 до 12. Значение{value}.");
 
             }
         }
