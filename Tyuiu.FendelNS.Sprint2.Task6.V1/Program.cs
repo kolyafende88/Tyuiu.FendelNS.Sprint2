@@ -12,7 +12,7 @@ namespace Tyuiu.FendelNS.Sprint2.Task6.V1
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #18                                                             *");
-            Console.WriteLine("* Выполнил: Фендель Николай Сергеевич | СМАРТБ-24-1                       *");
+            Console.WriteLine("* Выполнил: Фендель Николай Сергеевич | СМАРТБ-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
